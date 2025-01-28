@@ -3,6 +3,13 @@ import styles from "./page.module.css";
 import Hero from "public/hero.png";
 import Button from "@/components/Button/Button";
 
+export async function metadata() {
+  return {
+    title: "Bagena Dev",
+    description: "My first practice on next js 13",
+  };
+}
+
 export default function Home() {
   return (
     <div className={styles.container}>
